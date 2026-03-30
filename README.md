@@ -27,11 +27,11 @@ El proyecto ha sido optimizado para alcanzar métricas de alto rendimiento, logr
 ### Estrategias aplicadas:
 * **LCP (Largest Contentful Paint):** Optimizado mediante el uso de `priority` y `fetchPriority="high"` en imágenes críticas, junto con la implementación de `preconnect` para el CDN de imágenes.
 * **SEO & Metadata:** Implementación de metadatos dinámicos mediante `generateMetadata` y uso de datos estructurados (JSON-LD) para mejorar la indexación.
-* **Arquitectura:** Uso de **Next.js 15 Server Components** para minimizar el bundle de JavaScript enviado al cliente.
+* **Arquitectura:** Uso de **Next.js 16 Server Components** para minimizar el bundle de JavaScript enviado al cliente.
 * **Accesibilidad:** Cumplimiento total de estándares ARIA y contraste de color, logrando un 100/100 constante.
 
 ## 💻 Stack Tecnológico
-* **Framework:** Next.js 15 (App Router)
+* **Framework:** Next.js 16 (App Router)
 * **Lenguaje:** TypeScript
 * **Estilos:** Tailwind CSS
 * **Métricas:** Lighthouse / Core Web Vitals
