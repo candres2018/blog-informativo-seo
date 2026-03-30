@@ -22,7 +22,7 @@
 
 ## 🚀 Optimización y Rendimiento (Core Web Vitals)
 
-El proyecto ha sido optimizado para alcanzar métricas de alto rendimiento, logrando un puntaje de **98-100 en todas las categorías de Lighthouse**.
+El proyecto ha sido optimizado para alcanzar métricas de alto rendimiento, logrando un puntaje de **95-100 en todas las categorías de Lighthouse**.
 
 ### Estrategias aplicadas:
 * **LCP (Largest Contentful Paint):** Optimizado mediante el uso de `priority` y `fetchPriority="high"` en imágenes críticas, junto con la implementación de `preconnect` para el CDN de imágenes.
@@ -37,14 +37,13 @@ El proyecto ha sido optimizado para alcanzar métricas de alto rendimiento, logr
 * **Métricas:** Lighthouse / Core Web Vitals
 * **Métricas:** Rich Results Test - Google Search Console - Home/Detail
 
-
 ## 📊 Resultados Lighthouse (Desktop)
-| Categoría | Puntaje |
-| :--- | :--- |
-| Performance | 98-100 |
-| Accessibility | 100 |
-| Best Practices | 100 |
-| SEO | 100 |
+| Categoría      | Puntaje |
+| :------------- | :------ |
+| Performance    | 95-100  |
+| Accessibility  | 100     |
+| Best Practices | 100     |
+| SEO            | 100     |
 
 ## 📊 Resultados Rich Results Test (Google Search Console)
 |    Vista    | Elemento               | Resultado |
