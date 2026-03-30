@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "La carrera por la hegemonía de la Inteligencia Artificial en 2026",
+    "slug": "carrera-ia-2026",
+    "description": "Un análisis profundo sobre cómo las potencias globales están legislando y compitiendo por el desarrollo de la IA generativa.",
+    "content": "A medida que avanzamos en 2026, la Inteligencia Artificial ha dejado de ser una herramienta de nicho para convertirse en el pilar de la economía digital. Los gobiernos de la Unión Europea y Estados Unidos han establecido nuevos marcos regulatorios que buscan equilibrar la innovación con la ética. Este artículo explora el impacto de los modelos de lenguaje masivos en la productividad laboral y los riesgos de la automatización en sectores tradicionales como la manufactura y el servicio al cliente.",
+    "image": "https://picsum.photos/seed/tech-ai/800/400",
+    "publishedAt": "2026-03-15"
+  },
+  {
+    "id": 2,
+    "title": "Crisis energética y la transición hacia el hidrógeno verde",
+    "slug": "hidrogeno-verde-economia",
+    "description": "La economía global enfrenta un cambio de paradigma impulsado por la necesidad de fuentes de energía limpias y sostenibles.",
+    "content": "El hidrógeno verde se ha posicionado como la clave para descarbonizar industrias pesadas. En este extenso informe, analizamos las inversiones multimillonarias en plantas de electrólisis en América Latina y el Norte de África. A diferencia de los combustibles fósiles, el hidrógeno ofrece una alternativa almacenable y transportable, aunque los costos de infraestructura siguen siendo el principal desafío para su adopción masiva en la red eléctrica mundial.",
+    "image": "https://picsum.photos/seed/energy/800/400",
+    "publishedAt": "2026-03-18"
+  },
+  {
+    "id": 3,
+    "title": "Inflación y tipos de interés: ¿Hacia dónde va la banca central?",
+    "slug": "inflacion-banca-central-2026",
+    "description": "Un repaso detallado de las decisiones de la Reserva Federal y el Banco Central Europeo frente a la volatilidad de los mercados.",
+    "content": "La persistencia de la inflación subyacente ha obligado a los bancos centrales a mantener una política monetaria restrictiva durante más tiempo del esperado. En esta edición de economía, consultamos a expertos financieros sobre las proyecciones de crecimiento para el segundo semestre. La liquidez del mercado y el endurecimiento del crédito están moldeando un nuevo escenario para las startups y la inversión en capital de riesgo.",
+    "image": "https://picsum.photos/seed/finance/800/400",
+    "publishedAt": "2026-03-20"
+  },
+  {
+    "id": 4,
+    "title": "El resurgimiento del multilateralismo en la política internacional",
+    "slug": "politica-multilateralismo-2026",
+    "description": "Cómo las nuevas alianzas geopolíticas están redefiniendo el comercio transatlántico y las relaciones diplomáticas.",
+    "content": "Tras años de tensiones comerciales, 2026 marca un retorno a los acuerdos multilaterales. Desde la reforma de la OMC hasta los nuevos tratados de libre comercio en el Pacífico, la diplomacia está recuperando su papel central. Analizamos el impacto de estas políticas en los países en desarrollo y cómo la seguridad alimentaria se ha convertido en una prioridad en la agenda de la ONU.",
+    "image": "https://picsum.photos/seed/politics/800/400",
+    "publishedAt": "2026-03-22"
+  },
+  {
+    "id": 5,
+    "title": "Criptomonedas estatales: El auge de las CBDC",
+    "slug": "cbdc-dinero-digital-estado",
+    "description": "Exploramos el lanzamiento de las monedas digitales emitidas por bancos centrales y el fin del efectivo físico.",
+    "content": "El dinero tal como lo conocemos está cambiando. Con el despliegue del Euro Digital y el avance del Yuan electrónico, la privacidad y la soberanía monetaria están en el centro del debate público. Este artículo detalla cómo las CBDC (Central Bank Digital Currencies) prometen transacciones instantáneas y una reducción drástica en la evasión fiscal, mientras generan preocupaciones sobre la vigilancia estatal.",
+    "image": "https://picsum.photos/seed/crypto/800/400",
+    "publishedAt": "2026-03-24"
+  },
+  {
+    "id": 6,
+    "title": "Urbanismo sostenible: Ciudades de 15 minutos",
+    "slug": "urbanismo-sostenible-ciudades",
+    "description": "La transformación de las grandes metrópolis para reducir la huella de carbono y mejorar la calidad de vida.",
+    "content": "París, Barcelona y Bogotá están liderando el cambio hacia un modelo urbano donde los ciudadanos tienen acceso a todos los servicios esenciales a menos de 15 minutos a pie o en bicicleta. Examinamos los retos políticos de peatonalizar centros históricos y el impacto económico positivo en los comercios locales derivado de una menor dependencia del automóvil privado.",
+    "image": "https://picsum.photos/seed/city/800/400",
+    "publishedAt": "2026-03-26"
+  },
+  {
+    "id": 7,
+    "title": "La crisis de la vivienda y las nuevas leyes de alquiler",
+    "slug": "crisis-vivienda-legislacion",
+    "description": "Un análisis de las políticas de vivienda en Europa y América del Norte frente a la gentrificación acelerada.",
+    "content": "El acceso a una vivienda digna se ha convertido en el principal conflicto social de la década. En este reportaje extendido, analizamos cómo los topes al alquiler y la construcción de vivienda pública están intentando frenar la escalada de precios. También exploramos el fenómeno de los nómadas digitales y su efecto en el mercado inmobiliario de ciudades como Lisboa y Ciudad de México.",
+    "image": "https://picsum.photos/seed/housing/800/400",
+    "publishedAt": "2026-03-28"
+  },
+  {
+    "id": 8,
+    "title": "El impacto económico del Turismo Espacial",
+    "slug": "turismo-espacial-economia",
+    "description": "Lo que antes era ciencia ficción ahora es una industria de miles de millones de dólares con nuevos actores privados.",
+    "content": "Con más de 50 vuelos comerciales completados en lo que va del año, el turismo espacial ya no es solo para multimillonarios. Analizamos la competencia entre SpaceX, Blue Origin y nuevas empresas europeas por dominar la órbita baja terrestre. La creación de empleos en ingeniería aeroespacial y el desarrollo de nuevos materiales son los motores ocultos de esta nueva economía.",
+    "image": "https://picsum.photos/seed/space/800/400",
+    "publishedAt": "2026-03-29"
+  },
+  {
+    "id": 9,
+    "title": "Reforma laboral y la semana de cuatro días",
+    "slug": "semana-laboral-cuatro-dias",
+    "description": "Resultados de los pilotos globales sobre la reducción de la jornada laboral sin reducción de salario.",
+    "content": "Los datos de 2025 confirmaron que trabajar menos horas puede aumentar la productividad. En este artículo de actualidad, revisamos las leyes que se están debatiendo en los congresos de varios países para estandarizar la semana de 32 horas. Evaluamos el impacto en la salud mental de los trabajadores y los desafíos logísticos para las pequeñas y medianas empresas.",
+    "image": "https://picsum.photos/seed/work/800/400",
+    "publishedAt": "2026-03-29"
+  },
+  {
+    "id": 10,
+    "title": "Ciberseguridad en la era de la Computación Cuántica",
+    "slug": "ciberseguridad-cuantica",
+    "description": "Cómo las naciones están protegiendo sus datos críticos frente a la amenaza de los ordenadores cuánticos.",
+    "content": "La criptografía tradicional está en riesgo. Con el avance de los procesadores cuánticos, los sistemas de defensa global están migrando a algoritmos post-cuánticos. Analizamos la inversión estatal en infraestructuras críticas y por qué la soberanía de los datos es ahora el activo más valioso de cualquier nación en el tablero político mundial.",
+    "image": "https://picsum.photos/seed/cyber/800/400",
+    "publishedAt": "2026-03-29"
+  },
+  {
+    "id": 11,
+    "title": "El futuro del comercio electrónico y el Metaverso comercial",
+    "slug": "ecommerce-metaverso-2026",
+    "description": "La integración definitiva de la realidad aumentada en la experiencia de compra diaria.",
+    "content": "Ya no solo compramos a través de pantallas planas. El e-commerce ha evolucionado hacia experiencias inmersivas donde los consumidores prueban productos en entornos virtuales antes de pedirlos. Este cambio está transformando la logística de última milla y obligando a las marcas de retail a rediseñar por completo su presencia digital.",
+    "image": "https://picsum.photos/seed/shop/800/400",
+    "publishedAt": "2026-03-29"
+  },
+  {
+    "id": 12,
+    "title": "Bioética y edición genética: Los límites de la ciencia",
+    "slug": "bioetica-edicion-genetica",
+    "description": "El debate global sobre el uso de CRISPR en humanos y las implicaciones para las futuras generaciones.",
+    "content": "La ciencia ha avanzado más rápido que la ley. En este último artículo de nuestra serie, abordamos los dilemas morales de la edición genética. Mientras algunos países prohíben cualquier intervención, otros fomentan la investigación para erradicar enfermedades hereditarias. Un conflicto que definirá la evolución humana en el siglo XXI.",
+    "image": "https://picsum.photos/seed/science/800/400",
+    "publishedAt": "2026-03-29"
+  }
+]

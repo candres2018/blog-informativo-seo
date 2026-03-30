@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prueba Técnica: Blog Informativo con Next.js Enfocado en SEO
 
-## Getting Started
+* **Author:** [Carlos Andrés Ocaña Morillo](https://www.linkedin.com/in/carlos-andr%C3%A9s-oca%C3%B1a-morillo-634273252/)
 
-First, run the development server:
+## 🛠️ Cómo correr el proyecto
+1. Clonar el repositorio.
+2. Ejecutar `npm install` para instalar dependencias.
+3. Ejecutar `npm run dev` para el entorno de desarrollo.
+4. Para simular el entorno de producción (y ver el SSR real), corre: `npm run build` y luego `npm run start`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧠 Decisiones Técnicas Tomadas
+* **Next.js App Router:** Elegí el App Router en lugar de Pages Router porque adopta los React Server Components por defecto. Esto hace que las páginas sean SSR por naturaleza sin código extra.
+* **TypeScript:** Garantiza la integridad de los datos simulados y evita errores en la inyección de metadatos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Estrategia de Rendering (SSR)
+* Las páginas de listado y detalle se renderizan 100% en el servidor. Al desactivar JavaScript en el navegador, el contenido sigue estando totalmente presente en el HTML inicial. Esto garantiza que cualquier web crawler (Googlebot, Bing, etc.) indexe el texto sin esperas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📈 Consideraciones SEO
+* **Metadata Dinámica:** Implementé `generateMetadata` para extraer dinámicamente el título y descripción de los artículos simulados, previniendo duplicados de meta tags.
+* **Datos Estructurados (JSON-LD):** Inyecté un esquema de tipo `BlogPosting` para facilitarle a Google la comprensión del contenido y aspirar a fragmentos enriquecidos (Rich Snippets).
+* **Core Web Vitals:** Se utilizó `next/image` con propiedades de prioridad (`priority`) para las imágenes "Above the Fold" (arriba del pliegue) para proteger el LCP y evitar cambios bruscos de diseño (CLS).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Optimización y Rendimiento (Core Web Vitals)
 
-## Learn More
+El proyecto ha sido optimizado para alcanzar métricas de alto rendimiento, logrando un puntaje de **98-100 en todas las categorías de Lighthouse**.
 
-To learn more about Next.js, take a look at the following resources:
+### Estrategias aplicadas:
+* **LCP (Largest Contentful Paint):** Optimizado mediante el uso de `priority` y `fetchPriority="high"` en imágenes críticas, junto con la implementación de `preconnect` para el CDN de imágenes.
+* **SEO & Metadata:** Implementación de metadatos dinámicos mediante `generateMetadata` y uso de datos estructurados (JSON-LD) para mejorar la indexación.
+* **Arquitectura:** Uso de **Next.js 15 Server Components** para minimizar el bundle de JavaScript enviado al cliente.
+* **Accesibilidad:** Cumplimiento total de estándares ARIA y contraste de color, logrando un 100/100 constante.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Stack Tecnológico
+* **Framework:** Next.js 15 (App Router)
+* **Lenguaje:** TypeScript
+* **Estilos:** Tailwind CSS
+* **Métricas:** Lighthouse / Core Web Vitals
+* **Métricas:** Rich Results Test - Google Search Console - Home/Detail
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📊 Resultados Lighthouse (Desktop)
+| Categoría | Puntaje |
+| :--- | :--- |
+| Performance | 98-100 |
+| Accessibility | 100 |
+| Best Practices | 100 |
+| SEO | 100 |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📊 Resultados Rich Results Test (Google Search Console)
+|    Vista    | Elemento               | Resultado |
+| :---------- | :--------------------- | :-------- |
+| Home        | Carrusel               | Válido    |
+| Detail      | Artículo de Noticias   | Válido    |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Nota: Las variaciones de 2-3 puntos en Performance en entorno local se deben al overhead de hidratación de React y factores del sistema de archivos (Windows Slow Filesystem).*
