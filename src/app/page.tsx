@@ -38,7 +38,7 @@ export default function HomePage(): JSX.Element {
     'itemListElement': articles.map((art, index) => ({
       '@type': 'ListItem',
       'position': index + 1,
-      'url': `https://blog-informativo-seo.app/articles/${art.slug}`
+      'url': `https://blog-informativo-seo.vercel.app/articles/${art.slug}`
     }))
   };
   return (

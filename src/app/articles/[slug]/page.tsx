@@ -85,7 +85,7 @@ export default async function ArticlePage({ params }: PageProps): Promise<JSX.El
     'description': article.description,
     'image': article.image,
     'datePublished': `${article.publishedAt}T08:00:00-05:00`,
-    'url': `https://blog-informativo-seo.app/articles/${article.slug}`,
+    'url': `https://blog-informativo-seo.vercel.app/articles/${article.slug}`,
     'author': {
       '@type': 'Person',
       'name': 'Carlos Ocaña',

@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
  * metadataBase es esencial para generar URLs absolutas en Open Graph y Canonical tags.
  */
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blog-informativo-seo.app'),
+  metadataBase: new URL('https://blog-informativo-seo.vercel.app'),
   title: "App Store - Blog de Noticias",
   description: "Artículos de actualidad sobre política, economía y tecnología",
   alternates: {
