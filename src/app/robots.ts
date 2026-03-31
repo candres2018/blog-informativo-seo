@@ -6,5 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
+    sitemap: 'https://blog-informativo-seo.vercel.app/sitemap.xml'
   };
 }
